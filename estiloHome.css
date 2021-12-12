@@ -1,0 +1,356 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*                                 Estilo navegador y elementos*/
+div#contenedorNavegador{
+	background-color: #222121;
+	width: auto;
+	height: 120px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#contenedorNavegador a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 0px 0px 0px 100px;
+	font-family: Candara
+}
+
+div#contenedorNavegador a:hover{
+	color: #D19812;
+	font-size: 32px;
+}
+
+/*                               Estilo Bienvenida*/
+div#contenedorBienvenida{
+	background: url('Fotos/fondo1.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;
+	height: 505px;
+	margin: 0px;
+}
+
+div#contenedorBienvenida img {
+	margin: 0px 0px 0px 25px;
+}
+
+div#contenedorBienvenida h2 {
+	color: white;
+	font-weight: bold;
+	font-size: 60px;
+	margin: 0px 0px 0px 25px;
+	<!--font-family: Candara-->
+}
+
+div#contenedorNosotros{
+	background-color: BLACK;
+	width: autopx;
+	height: 550px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#contenedorNosotros img{
+	margin: 50px;
+	
+}
+
+div#contenedorDNMenu{
+	background: url('Fotos/fondo2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;
+	height: 200px;
+	margin: 0px;
+}
+
+h2#primerh2{
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 0px;
+}
+h2#segundoh2{
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 0px;
+}
+
+div#contenedorMenu{
+	background-color: BLACK;
+	width: auto;
+	height: 550px;
+	margin: 0px;
+}
+
+img#img1{
+	margin: 75px 0px 0px 0px;
+}
+
+img#img2{
+	margin: 0px 0px 90px 50px;
+}
+
+a#primera{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0px 0px 0px -245px;
+}
+
+a#primera:hover{
+	color: #D19812;
+	text-decoration: underline;
+}
+
+div#contenedorCMas{
+	background: url('Fotos/fondo3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;
+	height: 200px;
+	margin: 0px;
+}
+
+h2#primerh2CM{
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 10px 0px 0px 0px;
+}
+h2#segundoh2CM{
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 0px 0px 0px 0px;
+}
+
+div#contenedorGaleria{
+	background-color: BLACK;
+	width: auto;
+	height: 550px;
+	margin: 0px;
+}
+
+img#img1G{
+	margin: 40px 0px 0px 0px;
+}
+
+a#primeraG{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0px 0px 0px 0px;
+}
+
+a#primeraG:hover{
+	color: #D19812;
+	text-decoration: underline;
+}
+
+div#contenedorPromos{
+	background: url('Fotos/fondo2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;
+	height: 200px;
+	margin: 0px;
+}
+
+h2#primerh2P{
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 0px 0px 0px 0px;
+}
+h2#segundoh2P{
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 0px 0px 0px 0px;
+}
+
+div#contenedorCupones{
+	background-color: BLACK;
+	width: auto;
+	height: 550px;
+	margin: 0px;
+}
+
+img#img1C{
+	margin: 70px 0px 0px 0px;
+}
+
+img#img2C{
+	margin: 0px 0px 40px 50px;
+}
+
+a#primeraC{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0px 0px 0px -275px;
+}
+
+a#primeraC:hover{
+	color: #D19812;
+	text-decoration: underline;
+}
+
+/*                            Estilo de contenedor de datos y elementos*/
+div#contenedorDatos{
+	background: url('Fotos/f4.jpg');
+	background-size: cover;
+	width: auto;
+	height: 250px;
+	margin: 0px;
+	display: flex;
+}
+
+div#contenedorRedes{
+	width: 268px;
+	height: 248px;
+	margin: 0px;
+}
+
+h3#follow{
+	color: white;
+	margin: 2px 0px 0px 0px;
+}
+
+img#iconos{
+	margin: 10px 0px 0px 0px;
+}
+
+div#contenedorEnlaces{
+	width: 270px;
+	height: 248px;
+	margin: 0px;
+}
+
+
+h4#ER{
+	color: white;
+	font-size: 20px;
+	margin: 65px 0px 0px 0px;
+}
+
+h4#CopyR{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 40px 0px 0px 0px;
+}
+
+div#contenedorEnlaces a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 5px 0px 0px 0px;
+}
+
+div#contenedorEnlaces a:hover{
+	color: #D19812;
+	font-weight: bold;
+}
+
+div#contenedorContacto{
+	width: 270px;
+	height: 248px;
+	margin: 0px;
+}
+
+h4#contact{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 65px 0px 0px 0px;
+}
+
+h4#contact1{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+h4#contact2{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+h4#contact3{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+h4#contact4{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+div#contenedorHorarios{
+	width: 270px;
+	height: 248px;
+	margin: 0px;
+}
+
+h4#horario{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 55px 0px 0px 30px;
+}
+
+h4#horario1{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px 0px 0px 30px;
+}
+
+h4#horario2{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px 0px 0px 30px;
+}
+
+h4#horario3{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px 0px 0px 30px;
+}
+
+h4#horario4{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px 0px 0px 30px;
+}
+
+div#contenedorFinal{
+	width: 270px;
+	height: 248px;
+	margin: 0px;
+}
