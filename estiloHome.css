@@ -245,21 +245,21 @@ div#contenedorEnlaces{
 h4#ER{
 	color: white;
 	font-size: 20px;
-	margin: 65px 0px 0px 0px;
+	margin: 65px 0px 0px 20px;
 }
 
 h4#CopyR{
 	color: white;
 	font-weight: bold;
 	font-size: 20px;
-	margin: 40px 0px 0px 0px;
+	margin: 40px 0px 0px 20px;
 }
 
 div#contenedorEnlaces a{
 	color: white;
 	text-decoration: none;
 	font-size: 20px;
-	margin: 5px 0px 0px 0px;
+	margin: 5px 0px 0px 20px;
 }
 
 div#contenedorEnlaces a:hover{
